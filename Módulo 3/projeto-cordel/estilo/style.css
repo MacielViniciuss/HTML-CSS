@@ -15,6 +15,7 @@
 
 
 html, body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     min-height: 100vh;
     background-color: darkgray
 }
@@ -28,7 +29,7 @@ header{
 
 header > h1{
     font-family: var(--fontpassion);
-    font-size: 1.5cm;
+    font-size: 10vw;
     padding-top: 50px;
     font-variant: small-caps;
 }
@@ -49,6 +50,8 @@ a:hover{
 }
 
 section{
+    font-family: var(--fontsriracha);
+    font-size: 4vw;
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
@@ -66,8 +69,9 @@ section.imagem{
 }
 
 section.imagem > p{
+    display: inline-block;
+    padding: 5%;
     background-color: rgba(0, 0, 0, 0.204);
-    width: 400px;
 }
 
 footer{
